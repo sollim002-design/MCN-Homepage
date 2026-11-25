@@ -331,3 +331,10 @@ nav [aria-current="page"], .artist-link { color: var(--berry); text-decoration: 
 .character-window img[src$="sion-ojamamushi.png"]{object-position:center top}
 .artist-portrait img[src$="sion-ojamamushi.png"]{width:125%;max-width:none;left:-12.5%;top:0}
 @media(max-width:720px){.artist-portrait img[src$="sion-ojamamushi.png"]{width:115%;max-width:none;left:50%;top:0;transform:translateX(-50%)}}
+
+.sion-homepage{margin:40px 2% 80px;padding:clamp(32px,6vw,80px);background:#f2e6ee;border-radius:24px}
+.sion-homepage h2{font-size:clamp(28px,4vw,56px);line-height:1.35;margin:20px 0}
+.sion-homepage>p:not(.label){color:#5d515a;line-height:1.8;word-break:keep-all}
+.sion-homepage-link{display:inline-flex;align-items:center;gap:24px;margin-top:24px;padding:18px 28px;border-radius:999px;background:var(--berry,#7e254f);color:#fff;text-decoration:none;font-weight:700;line-height:1.5}
+.sion-homepage-link:hover{background:#54203d}
+@media(max-width:480px){.sion-homepage-link{padding:16px 20px;gap:12px;font-size:16px}}
